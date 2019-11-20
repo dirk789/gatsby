@@ -11,4 +11,7 @@
   border-radius: 2px;
   border: 1px solid #A0A0A0;
   margin-right: .5em;
+  -webkit-box-shadow: 10px 10px 50px -3px rgba(0,0,0,0.27);
+-moz-box-shadow: 10px 10px 50px -3px rgba(0,0,0,0.27);
+box-shadow: 10px 10px 50px -3px rgba(0,0,0,0.27);
 }
