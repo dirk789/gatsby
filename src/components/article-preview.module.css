@@ -7,7 +7,7 @@
 }
 
 .tag {
-  color: #ffc400;
+  color: var(--accent-color);
   text-decoration: none;
   display: inline-block;
   padding: .33333rem .5rem;
@@ -20,6 +20,6 @@
 }
 
 .tag:hover {
-  color: black;
+  color: white;
   background: var(--accent-color);
 }
