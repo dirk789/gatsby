@@ -36,7 +36,7 @@ a {
 
 @media screen and (max-width: 480px) {
   .wrapper {
-    width: calc(100% - 10vw);
+    width: calc(100% - 20vw);
   }
 }
 
