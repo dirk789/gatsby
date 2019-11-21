@@ -34,17 +34,19 @@ a {
   color: currentColor;
 }
 
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: calc(100% - 10vw);
+  }
+}
+
 .wrapper {
   width: calc(100% - 50vw);
   margin: 0 auto;
   padding: 0;
 }
 
-@media screen and (max-width: 480px) {
-  .wrapper {
-    width: calc(100% - 5vw);
-  }
-}
+
 
 .title {
   font-weight: 600;
