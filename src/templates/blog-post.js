@@ -19,8 +19,8 @@ class BlogPostTemplate extends React.Component {
           <div className={heroStyles.hero}>
             <Img className={heroStyles.heroImage} alt={post.title} fluid={post.heroImage.fluid} />
           </div>
+          <h1 className="section-headline">{post.title}</h1>
           <div className="wrapper">
-            <h1 className="section-headline">{post.title}</h1>
             <p
               style={{
                 display: 'block',
