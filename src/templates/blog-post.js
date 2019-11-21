@@ -24,13 +24,13 @@ class BlogPostTemplate extends React.Component {
           </div>
           <div className="wrapper">
             <h1 className="title">{post.title}</h1>
-            <p
+            {/* <p
               style={{
                 display: 'block',
               }}
             >
               {post.publishDate}
-            </p>
+            </p> */}
             <div
               dangerouslySetInnerHTML={{
                 __html: post.body.childMarkdownRemark.html,
