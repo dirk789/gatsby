@@ -23,6 +23,7 @@ class BlogPostTemplate extends React.Component {
             <h1 className="wrapper">{post.title} <span style={{ float: 'right' }}>{post.publishDate}</span></h1>
           </div>
           <div className="wrapper">
+            <h1 className="title">{post.title}</h1>
             <p
               style={{
                 display: 'block',
