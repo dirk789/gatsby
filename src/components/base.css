@@ -37,6 +37,12 @@ a {
   padding: 0;
 }
 
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: calc(100% - 10vmin);
+  }
+}
+
 /**
  * article grid
  */
