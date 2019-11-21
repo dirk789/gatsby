@@ -20,7 +20,7 @@ class BlogPostTemplate extends React.Component {
             <Img className={heroStyles.heroImage} alt={post.title} fluid={post.heroImage.fluid} />
           </div>
           <div className="section-headline">
-            <h1 className="wrapper">{post.title}</h1>
+            <h1 className="wrapper">{post.title} <span style={{ textAlign: 'right' }}>{post.publishDate}</span></h1>
           </div>
           <div className="wrapper">
             <p
